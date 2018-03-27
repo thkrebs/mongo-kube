@@ -10,6 +10,7 @@ gcloud config list project
 gcloud auth login
 gcloud auth application-default login
 gcloud config set container/use_application_default_credentials true
+gcloud config set compute/zone europe-west3
 ```
 
 ## Creating a new cluster 
